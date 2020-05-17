@@ -1,0 +1,39 @@
+.row{
+    padding: 4rem 2rem;
+}
+
+.hire{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tommypic{
+    height: 300px;
+    width: 250px;
+    align-items: center;
+}
+
+.pengalaman img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.pim{
+    padding: 0rem 2rem;
+}
+
+.pim {
+    padding: 1.5rem 1rem;
+}
+
+.restol {
+    padding: 1.5rem 1rem;
+}
+
+.buffer{
+    height: 60px;
+}
+
