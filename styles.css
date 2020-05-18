@@ -1,32 +1,30 @@
-body {
-    -webkit-animation-delay: 0.1s;
-    -webkit-animation-name: fontfix;
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
-}
-
-@-webkit-keyframes fontfix {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-
 
 h3 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather', serif;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500; 
+}
+
+p{
+    font-family: 'Lora',serif;
 }
 
 .tommy {
     margin: auto;
     text-align: left;
+    
+    
+}
+
+.tommyNama, .ts, .ms{
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.ptpim, .ru
+    {
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
 }
 
 .about {
@@ -81,7 +79,16 @@ h3 {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
 
+.peng{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.garis{
+    border-width: 3px;
+    
 }
 
 .pim {
@@ -97,9 +104,18 @@ h3 {
 }
 
 .buffer {
-    height: 60px;
+    height: 20px;
 }
 
 .mtp {
     padding-top: 50px;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+    width: 500px;
+    margin: auto;
 }
