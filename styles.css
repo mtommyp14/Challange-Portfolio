@@ -1,27 +1,90 @@
-.row{
-    padding: 4rem 2rem;
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
 }
 
-.hire{
+@-webkit-keyframes fontfix {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tommy {
+    margin: auto;
+    text-align: left;
+}
+
+.about {
+    margin: auto;
+    text-align: left;
+}
+
+.skills {
+    margin: auto;
+
+}
+
+.pengalaman {
+    margin: auto;
+    text-align: left;
+}
+
+.row {
+    padding: 7rem 0rem;
+}
+
+
+
+.portofolio {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+.pict {
+    display: flex;
+
+}
+
+
+.hire {
     display: flex;
     flex-direction: column;
-    
+    margin: auto;
+    padding-top: 12rem;
+
 }
 
-.tommypic{
+.tommypic {
     height: 300px;
-    width: 250px;
+    width: 300px;
     align-items: center;
+    margin: auto;
 }
 
 .pengalaman img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    
+
 }
 
-.pim{
+.pim {
     padding: 0rem 2rem;
 }
 
@@ -33,7 +96,10 @@
     padding: 1.5rem 1rem;
 }
 
-.buffer{
+.buffer {
     height: 60px;
 }
 
+.mtp {
+    padding-top: 50px;
+}
